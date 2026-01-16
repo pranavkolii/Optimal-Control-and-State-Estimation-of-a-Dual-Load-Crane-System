@@ -59,3 +59,7 @@ The controllers and observers successfully demonstrate the following:
 * **Precise Positioning**: The cart reaches the target coordinate with minimal overshoot.
 * **Sway Suppression**: Effective damping of the double-pendulum oscillations during and after movement.
 * **Robust Estimation**: Accurate state tracking is maintained even when only the cart position is measured and the system is subject to noise.
+
+## Outcomes
+* Developed and implemented an LQG control strategy for a nonlinear dual-load crane system, utilizing LQR for optimal state feedback and Luenberger observers.
+* Conducted comparative simulations applying controllers to both linearized and original nonlinear models to verify local and global stability.
