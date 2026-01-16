@@ -38,3 +38,15 @@ The system is defined by a 6-dimensional state vector:
 1. **Clone the repository**:
    ```bash
    git clone [https://github.com/pranavkolii/Optimal-Control-and-State-Estimation-of-a-Dual-Load-Crane-System.git](https://github.com/pranavkolii/Optimal-Control-and-State-Estimation-of-a-Dual-Load-Crane-System.git)
+2. **Open MATLAB and navigate to the project directory.**
+3. **Run the simulation**:
+    * To test the LQR controller, run `lqr_control.m` in the command window.
+    * To test state estimation with noise, run `kalman_filter.m`.
+
+---
+
+## 📊 Results
+The controllers and observers successfully demonstrate the following:
+* **Precise Positioning**: The cart reaches the target coordinate with minimal overshoot.
+* **Sway Suppression**: Rapid damping of the "double-pendulum" effect for both loads.
+* **Robust Estimation**: Accurate state tracking is maintained even when only the cart position is measured and the system is subject to noise.
